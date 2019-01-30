@@ -9,6 +9,7 @@ This repository contains a few Python programs that use the [ncclient library](h
 * `pip install xmltodict` (prefereably use a virtualenv set up for Python3)
 * `pip install ncclient` (preferably use a virtualenv set up for Python3)
 * Edit the device details in the Python script (IP address, NETCONF port, username and password)
+* Customize the configuration data to be pushed (e.g. vlan id, ip address, ...)
 * Run by calling `python3 <script name>` For example, `python3 add_new_vlan.py`
 
 ## 2. Brief descriptions of programs

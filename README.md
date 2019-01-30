@@ -20,9 +20,9 @@ This program executes the typical steps that are needed to be carried out on a t
 
 The steps executed are:
 
-1. Creates the new VLAN at the global level on the switch (we're assuming VTP mode is transparent)
-2. Marks an interface as a trunk
-3. Includes the newly created VLAN in the list of VLANs carried by the above trunk
-4. Creates a VLAN interface (SVI) for the new VLAN
-5. Assigns a primary IPv4 address to the SVI
-6. Includes the just-created subnet in an OSPF router process
+1. Create the new VLAN at the global level on the switch (we're assuming VTP mode is transparent)
+2. Mark the specified interface as a trunk
+3. Include the newly created VLAN in the list of VLANs carried by the above trunk
+4. Create a VLAN interface (SVI) for the new VLAN
+5. Assign a primary IPv4 address to the SVI
+6. Include the just-created subnet in an OSPF router process

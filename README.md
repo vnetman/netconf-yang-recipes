@@ -9,7 +9,7 @@ This program executes the typical steps that are needed to be carried out on a t
 
 The steps executed are:
 
-1. Creates the new VLAN at the global level on the switch (ew're assuming VTP mode is transparent)
+1. Creates the new VLAN at the global level on the switch (we're assuming VTP mode is transparent)
 2. Marks an interface as a trunk
 3. Includes the newly created VLAN in the list of VLANs carried by the above trunk
 4. Creates a VLAN interface (SVI) for the new VLAN
